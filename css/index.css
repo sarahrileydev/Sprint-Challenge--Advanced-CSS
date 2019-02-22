@@ -161,10 +161,10 @@ p {
   margin: 0 auto;
 }
 .nav {
-  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  width: 100%;
+  flex-direction: column;
   padding: 30px 0;
   background-color: #F6F6F6;
 }
@@ -180,9 +180,9 @@ p {
   align-items: center;
 }
 .nav nav a {
-  text-decoration: none;
+  padding-left: 6rem;
   font-size: 1.8rem;
-  padding-left: 40px;
+  text-decoration: none;
   color: #454A59;
 }
 footer {
@@ -236,6 +236,21 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: #22283A;
+  color: #F6F7F8;
+  margin: 10px 0;
+  cursor: pointer;
+  padding: 10px 5%;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 10px;
+  width: 12rem;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #F6F7F8;
+  color: #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
